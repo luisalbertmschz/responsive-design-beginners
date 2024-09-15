@@ -1,0 +1,28 @@
+/* The CSS code snippet `html{ box-sizing: border-box; font-size: 100%; }` is setting the `box-sizing`
+property of the `html` element to `border-box` and the `font-size` property to `100%`. */
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+/* The CSS code snippet `*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}` is setting the `box-sizing` property to `inherit` for all elements, their `::before`
+pseudo-elements, and their `::after` pseudo-elements. This means that these elements will inherit
+the `box-sizing` property value from their parent element. */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 100%);
+}
