@@ -1,3 +1,6 @@
+
+@use '../util' as u;
+
 /* The CSS code snippet `html{ box-sizing: border-box; font-size: 100%; }` is setting the `box-sizing`
 property of the `html` element to `border-box` and the `font-size` property to `100%`. */
 html{
@@ -22,7 +25,7 @@ the `box-sizing` property value from their parent element. */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: u.$font;
     background: var(--background-color);
     color:var(--text-color);
 }
